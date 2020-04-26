@@ -3,11 +3,11 @@ import Slide from "react-reveal/Slide";
 
 class TimeUntil extends Component {
   state = {
-    deadline: "April, 14, 2020",
+    deadline: "December, 16, 2020",
     days: "0",
     hours: "0",
     minutes: "0",
-    seconds: "0"
+    seconds: "0",
   };
 
   getTimeUntil(deadline) {
@@ -24,7 +24,7 @@ class TimeUntil extends Component {
         days,
         hours,
         minutes,
-        seconds
+        seconds,
       });
     }
   }
